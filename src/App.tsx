@@ -4,7 +4,7 @@ import { OrbitControls, PerspectiveCamera, useHelper } from "@react-three/drei";
 import { DirectionalLight, DirectionalLightHelper, Mesh } from "three";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import Car from "./car";
+// import Car from "./car";
 function App() {
   const Scene = () => {
     const directionLight = useRef<DirectionalLight>(null!);
@@ -67,7 +67,7 @@ function App() {
           <meshStandardMaterial color={"green"} />
         </mesh>
         {/* Car */}
-        <Car position={[-2, 0, 0]} />
+        {/* <Car position={[-2, 0, 0]} /> */}
         {/* Ball */}
         <mesh ref={ballRef} position={[-2, 4, 0]} castShadow>
           {" "}
