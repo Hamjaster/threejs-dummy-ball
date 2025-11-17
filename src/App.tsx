@@ -45,7 +45,7 @@ function App() {
           position={[-3, 1, 0]}
           castShadow
         />
-        <ambientLight intensity={0.9} />{" "}
+        <ambientLight intensity={0.5} />{" "}
         {/* Ambient light is a light that
         illuminates all objects in the scene equally.
         {/* Point light decays with distance */}
