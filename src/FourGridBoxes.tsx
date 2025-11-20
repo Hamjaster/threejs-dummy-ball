@@ -10,7 +10,7 @@ export default function FourGridBoxes() {
         scroller: "body",
         start: "top 50%",
         end: "top 0",
-        markers: true,
+        // markers: true,
         scrub: 2,
       },
     });
