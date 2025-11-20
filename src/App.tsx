@@ -8,7 +8,9 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import PinAnimation from "./PinAnimation";
 import AnimatedString from "./AnimatedString";
 import Sidebar from "./Sidebar";
+import FourGridBoxes from "./FourGridBoxes";
 // import Car from "./car";
+import ProductLandingPage from "./pages/ProductLandingPage";
 
 function App() {
   gsap.registerPlugin(ScrollTrigger);
@@ -172,7 +174,6 @@ function App() {
     <div className="overflow-x-hidden ">
       <Sidebar />
       <div className=" text-black items-center flex flex-col space-y-6  justify-center">
-        <div className=" w-full h-screen border-2 border-black  bg-red-500"></div>
         <div className="relative w-full h-[200vh] border-2 mt-11 border-black  bg-green-500">
           <div
             ref={boxRef}
@@ -211,6 +212,9 @@ function App() {
         ></div>
         <img ref={imageRef} src="https://picsum.photos/2000/700" alt="" />
       </div>
+      <FourGridBoxes />
+
+      <ProductLandingPage />
     </div>
   );
 }

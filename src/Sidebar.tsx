@@ -39,6 +39,7 @@ export default function Sidebar() {
         ease: "power2.out",
       }
     );
+    tl.pause();
 
     buttonRef.current &&
       buttonRef.current.addEventListener("click", () => {
